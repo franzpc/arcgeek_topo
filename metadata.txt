@@ -1,0 +1,40 @@
+[general]
+name=ArcGeek Topo
+qgisMinimumVersion=3.40
+qgisMaximumVersion=4.99
+description=Crea layouts de levantamientos topográficos de forma automática y sencilla.
+version=1.0.0
+author=ArcGeek
+email=soporte@arcgeek.com
+
+about=Plugin para generar levantamientos topográficos profesionales con layouts editables en QGIS. 
+    
+    Características principales:
+    - Genera capas vectoriales (polígono, vértices, medidas)
+    - Crea layouts completos y editables
+    - Calcula automáticamente rumbos, distancias, áreas y perímetros
+    - Herramientas de Processing: 
+      * Crear Polígono desde CSV (Simple)
+      * Extraer Puntos Ordenados de Polígonos
+      * Exportar Tablas a CSV/Excel
+    
+    Compatibilidad:
+    - Soporta Qt5 y Qt6
+    - Compatible con QGIS 3.40 hasta 4.99
+
+tracker=https://github.com/franzpc/arcgeek_topo
+repository=https://github.com/franzpc/arcgeek_topo
+homepage=https://github.com/franzpc/arcgeek_topo
+tags=topografia,levantamiento,planos,csv,coordenadas,processing,excel,layout automático,levantamiento topográfico,levantamiento planimétrico,rumbos,distancias
+category=topografia
+icon=icon.png
+experimental=False
+deprecated=False
+hasProcessingProvider=yes
+supportsQt6=True
+
+changelog=
+    1.0.0 - Lanzamiento Inicial
+    - Generación de levantamientos topográficos completos.
+    - Soporte para CSV y Excel.
+    - Herramientas de procesamiento geométrico y exportación.

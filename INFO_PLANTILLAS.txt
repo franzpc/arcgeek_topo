@@ -1,0 +1,22 @@
+LISTADO DE NOMBRES DE PLANTILLAS REQUERIDAS
+=========================================
+
+Para que el plugin detecte automáticamente el diseño correcto según la configuración seleccionada (Tamaño y Orientación), debes guardar los archivos .qpt diseñados con estos nombres exactos en esta misma carpeta:
+
+--- SERIE A ---
+plantilla_A4_Horizontal.qpt
+plantilla_A4_Vertical.qpt
+plantilla_A3_Horizontal.qpt
+plantilla_A3_Vertical.qpt
+plantilla_A2_Horizontal.qpt
+plantilla_A2_Vertical.qpt
+plantilla_A1_Horizontal.qpt
+plantilla_A1_Vertical.qpt
+
+--- OTROS FORMATOS ---
+plantilla_CARTA_Horizontal.qpt
+plantilla_CARTA_Vertical.qpt
+plantilla_OFICIO_Horizontal.qpt
+plantilla_OFICIO_Vertical.qpt
+
+NOTA: Si alguna de estas plantillas no existe, el plugin intentará usar 'plantilla.qpt' por defecto o mostrará un error.
